@@ -57,10 +57,10 @@ public class ObjectAnimatorDemo  extends Activity{
     }
 
     private  void propertyValuesHolderdemo(View view){
-
         PropertyValuesHolder xpropertyValuesHolder=PropertyValuesHolder.ofFloat("alpha", 1f, 0f, 1f);
         PropertyValuesHolder ypropertyValuesHolder=PropertyValuesHolder.ofFloat("scaleX",1f,0,1f);
         PropertyValuesHolder zpropertyValuesHolder=PropertyValuesHolder.ofFloat("scaleY",1f,0,1f);
+        ObjectAnimator.ofPropertyValuesHolder(view, xpropertyValuesHolder, ypropertyValuesHolder,zpropertyValuesHolder).setDuration(1000).start();
 
     }
 

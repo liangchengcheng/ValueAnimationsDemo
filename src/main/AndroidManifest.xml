@@ -37,6 +37,10 @@
             android:name=".ViewAnimationDemo"
             android:label="@string/title_activity_view_animation_demo" >
         </activity>
+        <activity
+            android:name=".KeyframeDemo"
+            android:label="@string/title_activity_keyframe_demo" >
+        </activity>
     </application>
 
 </manifest>

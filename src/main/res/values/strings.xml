@@ -8,4 +8,5 @@
     <string name="title_activity_xmlanimaton_demo">XMLAnimatonDemo</string>
     <string name="title_activity_layout_animations">LayoutAnimations</string>
     <string name="title_activity_view_animation_demo">ViewAnimationDemo</string>
+    <string name="title_activity_keyframe_demo">KeyframeDemo</string>
 </resources>
